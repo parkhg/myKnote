@@ -14,9 +14,6 @@ from openpyxl import Workbook
 from openpyxl import load_workbook
 
 def connectDB():
-    url = "idlecatmysql.cu3my8xgwpri.ap-northeast-2.rds.amazonaws.com"
-    userid = "admin"
-    passwd = "idlecat5717"
     dbname = "mercury"
     charset = "utf8"
 
